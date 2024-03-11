@@ -1,0 +1,139 @@
+
+body{
+  background-color: #1E1C1C;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  height: 200vh;
+}
+header{
+  display: flex;
+  background-color: #333030;
+}
+header h1 a{
+  margin: 0;
+}
+
+.menu img{
+  display: flex;
+  position: absolute;
+  height: 8%;
+  margin-left: 26vh;
+  bottom: 92vh;
+}
+ul{
+  list-style: none;
+  display: flex;
+  margin: 28px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+}
+
+a:hover{
+  color: red;
+}
+
+header h1{
+  line-height: 10px;
+  margin: 20px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+
+#textmenu1{
+  margin-left: 50px;
+}
+
+article{
+  margin-top: 20px;
+  margin-left: 13vh;
+}
+article img{
+  border-radius: 15px;
+  opacity: 60%;
+}
+
+#text1{
+  position: absolute;
+  bottom: 42vh;
+  left: 55vh;
+  max-width: 750px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  color: white;
+}
+#text2{
+  position: absolute;
+  bottom: 38vh;
+  left: 50vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  color: white;
+}
+#text3{
+  position: absolute;
+  bottom: 34vh;
+  left: 85vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  color: white;
+  
+}
+#noticias{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  flex-wrap: wrap;
+}
+
+.borders a{
+  width: 300px;
+  height: 300px;
+ 
+  justify-content: space-evenly;
+}
+#textnot{
+  margin-top: 10vh;
+  margin-left: 5vh;
+  color: white;
+  opacity: 70%;
+}
+#textno{
+  color: white;
+  display: flex;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+#textno p{
+  max-width: 350px;
+  display: flex;
+  margin-left: 100px;
+  text-align: justify;
+  justify-content: space-evenly;
+ 
+}
+.borders img{
+  border-radius: 20px;
+}
+
+#textno p a{
+  margin-left: 0;
+  
+}
+
+footer{
+  background-color: #333030;
+  height: 8vh;
+  margin-top: 10vh;
+  display: flex;
+}
+
+#direitos{
+  margin-left: 50px;
+  margin-top: 20px;
+  color: white;
+}
+
